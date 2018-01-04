@@ -1,0 +1,67 @@
+<html>
+<head>
+    
+</head>
+    <body>
+<script>
+    function eval() {
+        var oops = getGrade(document.getElementById("oops").value)
+        var ds = getGrade(document.getElementById("ds").value)
+        var dld = getGrade(document.getElementById("dld").value)
+        var ca = getGrade(document.getElementById("ca").value)
+        var oopslab = getGrade(document.getElementById("oopslab").value)
+        var dslab = getGrade(document.getElementById("dslab").value)
+        var dlab = getGrade(document.getElementById("dlab").value)
+        var eng = getGrade(document.getElementById("eng").value)
+        var maths = getGrade(document.getElementById("maths").value)
+        var law = getGrade(document.getElementById("law").value)   
+        oops *= 3
+        ds *= 3
+        dld *= 4
+        ca *= 3
+        maths *= 4
+        law *= 3
+        var result = oops + ds + dld + ca + oopslab + dslab + dlab + eng + maths + law
+        var gpa = result/24
+        alert("You have got "+gpa+" GPA");
+    }
+
+    function getGrade(grade){
+        switch(grade){
+            case "S": case "s": return 10
+ case "A": case "a": return 9
+ case "B": case "b": return 8
+ case "C": case "c": return 7
+ case "D": case "d": return 6
+ case "E": case "e": return 5
+ case "U": case "u": return 0
+ default : alert("please enter all the fields with grades correctly")
+        }
+    }
+</script>
+        
+        <h1>Sem 3 CSE GPA calculator</h1>
+<h4>Object Oriented Programming
+<input id="oops" type="text" name="test"> </h4>
+<h4>Data Structures
+<input id="ds" type="text" name="test"> </h4>
+<h4>Digital Logic Design
+<input id="dld" type="text" name="test"> </h4>
+<h4>Computer Architecture
+<input id="ca" type="text" name="test"> </h4>
+<h4>Object Oriented Programming Laboratory
+<input id="oopslab" type="text" name="test"> </h4>
+<h4>Data Structures Laboratory
+<input id="dslab" type="text" name="test"> </h4>
+<h4>Digital Laboratory
+<input id="dlab" type="text" name="test"> </h4>
+<h4> Oral Communication
+<input id="eng" type="text" name="test">
+    </h4>
+<h4>Transforms and Applications
+    <input id="maths" type="text" name="test"> </h4>
+<h4>Law for Engineers
+    <input id="law" type="text" name="test"> </h4>
+    <button onclick="eval()">submit</button>
+    </body>
+</html>
