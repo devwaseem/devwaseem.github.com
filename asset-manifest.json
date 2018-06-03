@@ -1,6 +1,12 @@
 {
-  "main.css": "static/css/main.d8415a0b.css",
-  "main.css.map": "static/css/main.d8415a0b.css.map",
-  "main.js": "static/js/main.b9dad10c.js",
-  "main.js.map": "static/js/main.b9dad10c.js.map"
+  "main.css": "static/css/main.63e68c7d.css",
+  "main.css.map": "static/css/main.63e68c7d.css.map",
+  "main.js": "static/js/main.f9f3b747.js",
+  "main.js.map": "static/js/main.f9f3b747.js.map",
+  "static/media/Avenir-Black.ttf": "static/media/Avenir-Black.9c1b5945.ttf",
+  "static/media/Avenir-Light.ttf": "static/media/Avenir-Light.e5dd868d.ttf",
+  "static/media/Avenir-Medium.ttf": "static/media/Avenir-Medium.33f01234.ttf",
+  "static/media/Background image_edited.png": "static/media/Background image_edited.ee4f3121.png",
+  "static/media/icon_seo.png": "static/media/icon_seo.4ae34c00.png",
+  "static/media/logo.png": "static/media/logo.3a3f5b58.png"
 }
